@@ -1,14 +1,10 @@
 # trueautomation-java-example
 
-You must have installed TrueAutomation client, JDK 8 or later. 
+https://softesis.atlassian.net/browse/TA-888
 
-## How to run test: 
+You must have installed TrueAutomation client, JDK 8 or later.
 
-* Checkout project
- 
- ```
- clone https://github.com/shapovalovei/trueautomation-testng.git
- ```
+## How to run test:
 
 * Init project use `trueautomation init` command
  
@@ -17,4 +13,9 @@ You must have installed TrueAutomation client, JDK 8 or later.
 ```bash
 mvn -Dtest=exampleTest test
 
+```
+or
+
+```bash
+mvn -Dtest=fb test
 ```
